@@ -12,7 +12,6 @@ class Controller:
     def __init__(self, view: View, model: Model):
         self._model = model
         self._view = view
-
         # Variabili per memorizzare le selezioni correnti
         self.mese_selezionato = 0
 
